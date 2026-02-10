@@ -4,7 +4,7 @@ Binary Android SDK distribution.
 
 ## Version
 
-`0.0.1`
+`0.0.2`
 
 ## Install
 
@@ -17,7 +17,7 @@ maven("https://raw.githubusercontent.com/Saltware-Tech/fidbek-android/main/maven
 In app module:
 
 ```kotlin
-implementation("com.fidbek:fidbek-android:0.0.1")
+implementation("com.fidbek:fidbek-android:0.0.2")
 ```
 
 ## Usage
@@ -32,3 +32,8 @@ Fidbek.initialize(
 // Optional manual trigger
 Fidbek.open()
 ```
+
+## Notes
+
+- `0.0.2` includes missing transitive runtime dependency for `androidx.viewbinding.ViewBinding`.
+- If you stay on `0.0.1`, add `implementation("androidx.databinding:viewbinding:8.13.2")` manually.
