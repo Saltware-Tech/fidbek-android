@@ -4,7 +4,7 @@ Binary Android SDK distribution.
 
 ## Version
 
-`0.0.2`
+`0.1.0`
 
 ## Install
 
@@ -17,7 +17,7 @@ maven("https://raw.githubusercontent.com/Saltware-Tech/fidbek-android/main/maven
 In app module:
 
 ```kotlin
-implementation("com.fidbek:fidbek-android:0.0.2")
+implementation("com.fidbek:fidbek-android:0.1.0")
 ```
 
 ## Usage
@@ -25,8 +25,7 @@ implementation("com.fidbek:fidbek-android:0.0.2")
 ```kotlin
 Fidbek.initialize(
     application = this,
-    token = "YOUR_TOKEN",
-    baseUrl = "https://api.fidbek.dev"
+    token = "YOUR_TOKEN"
 )
 
 // Optional manual trigger
@@ -35,5 +34,6 @@ Fidbek.open()
 
 ## Notes
 
-- `0.0.2` includes missing transitive runtime dependency for `androidx.viewbinding.ViewBinding`.
-- If you stay on `0.0.1`, add `implementation("androidx.databinding:viewbinding:8.13.2")` manually.
+- API is simplified in `0.1.0`.
+- Fixed backend endpoint is now internal: `https://api.fidbek.dev/v1/sdk/reports`.
+- `baseUrl`, `reportPath`, and `autoAttachScreenshot` are removed from public initialize API.
