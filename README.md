@@ -11,7 +11,7 @@ Binary Android SDK distribution.
 In your top-level `settings.gradle` or `build.gradle` repositories:
 
 ```kotlin
-maven("https://raw.githubusercontent.com/2ez4salt/fidbek-android/main/maven")
+maven("https://raw.githubusercontent.com/Saltware-Tech/fidbek-android/main/maven")
 ```
 
 In app module:
