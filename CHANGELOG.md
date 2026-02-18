@@ -1,3 +1,8 @@
+## 0.1.5
+
+- Updated Android binary distribution from native source `0.1.5`.
+- Aligned public Maven package version to `0.1.5`.
+
 ## 0.1.1
 
 - Restored automatic screenshot capture before opening feedback flow.

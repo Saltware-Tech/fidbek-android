@@ -4,7 +4,7 @@ Binary Android SDK distribution.
 
 ## Version
 
-`0.1.1`
+`0.1.5`
 
 ## Install
 
@@ -17,7 +17,7 @@ maven("https://raw.githubusercontent.com/Saltware-Tech/fidbek-android/main/maven
 In app module:
 
 ```kotlin
-implementation("com.fidbek:fidbek-android:0.1.1")
+implementation("com.fidbek:fidbek-android:0.1.5")
 ```
 
 ## Usage
@@ -38,3 +38,4 @@ Fidbek.open()
 - Fixed backend endpoint is now internal: `https://api.fidbek.dev/v1/sdk/reports`.
 - `baseUrl`, `reportPath`, and `autoAttachScreenshot` are removed from public initialize API.
 - Automatic screenshot capture on open flow is restored in `0.1.1`.
+- Current release line: `0.1.5`.
