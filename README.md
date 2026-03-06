@@ -37,4 +37,4 @@ Fidbek.open()
 - API remains `initialize`, `open`, and `shutdown`.
 - Fixed backend endpoint is internal: `https://api.fidbek.dev/v1/sdk/reports`.
 - Current release line: `0.2.0`.
-- Includes issue frequency selection, EN/TR localization (fallback EN), and reliability improvements from native source `0.2.0`.
+- Includes issue frequency selection, built-in localization for English, Turkish, Spanish, French, German, Portuguese, Arabic, Hindi, Japanese, and Simplified Chinese, plus English fallback for unsupported locales.
