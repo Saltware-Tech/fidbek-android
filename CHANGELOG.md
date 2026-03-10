@@ -1,3 +1,9 @@
+## 0.3.0
+
+- Updated Android Maven distribution from native source `0.3.0`.
+- Added identify email prefill in the report form and reduced accidental shake opens.
+- Deprecated native attachment staging helpers and aligned the recommended public API to the core 5 methods.
+
 ## 0.2.0
 
 - Updated Android Maven distribution from native source `0.2.0`.
